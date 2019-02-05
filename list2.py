@@ -36,7 +36,6 @@ def linear_merge(list1, list2):
           a.append(list1.pop(0))
         else:
           a.append(list2.pop(0))
-
     a.extend(list1)
     a.extend(list2)
     return a
